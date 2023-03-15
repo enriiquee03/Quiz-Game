@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itemcheckbox1"
+        android:icon="@drawable/uno"
+        android:title="Pregunta 1"
+        />
+    <item
+        android:id="@+id/itemcheckbox2"
+        android:icon="@drawable/dos"
+        android:title="Pregunta 2"
+        />
+    <item
+        android:id="@+id/itemcheckbox3"
+        android:icon="@drawable/tres"
+        android:title="Pregunta 3"
+        />
+    <item
+        android:id="@+id/itemradiobutton"
+        android:icon="@drawable/cuatro"
+        android:title="Pregunta 4"
+        />
+    <item
+        android:id="@+id/itemedittext"
+        android:icon="@drawable/cinco"
+        android:title="Pregunta 5"
+        />
+
+</menu>

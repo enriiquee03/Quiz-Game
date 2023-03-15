@@ -1,0 +1,49 @@
+package com.example.secondproject
+
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import android.view.View
+import android.widget.ImageView
+import com.airbnb.lottie.LottieAnimationView
+import javax.xml.datatype.Duration
+import kotlin.time.toDuration
+
+class selectquiz : AppCompatActivity() {
+    var random_number :Int =0
+    lateinit var  selectimage :LottieAnimationView
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_selectquiz)
+        selectimage= findViewById(R.id.selectimage)
+    }
+    fun startanimation(view:View){
+        animation(selectimage,R.raw.rouletteanimation)
+    }
+
+    fun animation(imageView: LottieAnimationView, animation: Int){
+        imageView.setAnimation(animation)
+        imageView.playAnimation()
+        makerandomnumber()
+    }
+
+    fun makerandomnumber(){
+        random_number=(1..4).random()
+    }
+
+    fun changephoto(int: Int,imageView: LottieAnimationView){
+
+        if(random_number==1){
+            imageView.setImageResource(R.drawable.deportes)
+        }else if(random_number==2){
+            imageView.setImageResource(R.drawable.ciencia)
+        }else if(random_number==3){
+            imageView.setImageResource(R.drawable.historia)
+        }else if(random_number==4){
+            imageView.setImageResource(R.drawable.geografia)
+        }
+    }
+
+
+
+}

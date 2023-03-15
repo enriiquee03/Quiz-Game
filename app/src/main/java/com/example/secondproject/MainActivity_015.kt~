@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SecondProject</string>
+    <string name="play">JUGAR!</string>
+    <string name="user">Nombre de Usuario</string>
+    <string name="login">INGRESAR AL QUIZZ</string>
+    <string name="select">ELIGE TU QUIZZ</string>
+    <string name="button_select">PULSA AQUI \nELIG

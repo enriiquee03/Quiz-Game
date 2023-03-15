@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/framecontainerq2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckBoxFragment2">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:id="@+id/checkboxfragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/derportes_background"/>
+
+        <RelativeLayout
+            android:id="@+id/answerq2_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/preguntacheckbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"
+            android:text="@string/pregunta"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <CheckBox
+            android:id="@+id/answer1q2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="20dp"
+            android:background="@drawable/radioanswers"
+            android:buttonTint="@color/black"
+            android:text="CheckBox" />
+
+        <CheckBox
+            android:id="@+id/answer2q2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/answer1q2"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"
+            android:background="@drawable/radioanswers"
+            android:buttonTint="@color/black"
+            android:text="CheckBox" />
+
+        <CheckBox
+            android:id="@+id/answer3q2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/answer2q2"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"
+            android:background="@drawable/radioanswers"
+            android:buttonTint="@color/black"
+            android:paddingStart="10dp"
+            android:text="CheckBox" />
+
+        <CheckBox
+            android:id="@+id/answer4q2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/answer3q2"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"
+            android:background="@drawable/radioanswers"
+            android:buttonTint="@color/black"
+            android:text="CheckBox" />
+
+    </RelativeLayout>
+</FrameLayout>

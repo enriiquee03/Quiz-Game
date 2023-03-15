@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Desarrolo de Aplicaciones Moviles/SecondProject/app/src/main/res/drawable/user_login.xml" value="0.251" />
+        <entry key="..\:/Desarrolo de Aplicaciones Moviles/SecondProject/app/src/main/res/layout/activity_main.xml" value="0.3484375" />
+        <entry key="..\:/Desarrolo de Aplicaciones Moviles/SecondProject/app/src/main/res/layout/activity_selectquiz.xml" value="0.3625" />
+        <entry key="..\:/Desarrolo de Aplicaciones Moviles/SecondProject/app/src/main/res/layout/activity_start_game.xml" value="0.33" />
+        <entry key="..\:/SecondProject/app/src/main/res/drawable/ic_fragment.xml" value="0.2505" />
+        <entry key="..\:/SecondProject/app/src/main/res/layout/activity_main.xml" value="0.3625" />
+        <entry key="..\:/SecondProject/app/src/main/res/layout/activity_selectquiz.xml" value="0.3625" />
+        <entry key="..\:/SecondProject/app/src/main/res/layout/activity_selectquiz2.xml" value="0.1" />
+        <entry key="..\:/SecondProject/app/src/main/res/layout/activity_start_game.xml" value="0.3625" />
+        <entry key="..\:/SecondProject/app/src/main/res/layout/starts_fragments.xml" value="0.3625" />
+        <entry key="..\:/SecondProject/app/src/main/res/menu/navegation_menu.xml" value="0.3625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
